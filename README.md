@@ -18,7 +18,7 @@ An intelligent, context-aware chatbot built with Flask, featuring multi-intent u
 ---
 
 ## 📸 UI Preview
-![VEDA UI Preview](static/screenshots/ui-preview.png)
+![VEDA UI Preview](chatbot-nlp-app/ui-preview.png.PNG)
 
 ---
 
