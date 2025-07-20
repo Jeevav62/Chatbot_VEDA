@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "Good morning", "Greetings"],
+      "responses": ["Hey there! 👋", "Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time", "Time now"],
+      "responses": ["⏰ The current time is shown below."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it?", "What's the date today?", "Tell me the date"],
+      "responses": ["📅 Today’s date is shown below."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "I need a joke"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["🤖 I'm not sure I understand that. Could you rephrase?"]
+    },
+    {
+  "tag": "math",
+  "patterns": ["calculate", "math", "solve this", "can you do maths", "I need to solve something"],
+  "responses": ["Sure! Send me the expression or equation and I’ll do the math."]
+}
+  ]
+}
